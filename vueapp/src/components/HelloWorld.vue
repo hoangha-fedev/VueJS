@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Hello World</h1>
+    <h1>Hello World {{msg}}</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'I\'m Hoang Ha'
     }
   }
 }
@@ -31,5 +31,4 @@ li {
 a {
   color: #42b983;
 }
-
 </style>

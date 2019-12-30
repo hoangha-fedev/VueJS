@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <HelloWorld/>
+    <DataBinding/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import DataBinding from './components/Databinding'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    DataBinding
   }
 }
 </script>
