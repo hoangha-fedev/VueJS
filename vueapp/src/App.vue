@@ -9,6 +9,8 @@
     <Watch/> <hr>
     <LifecycleHooks/> <hr>
     <StyleBinding/> <hr>
+    <TemplateRender/> <hr>
+    <ListRender/> <hr>
   </div>
 </template>
 
@@ -20,6 +22,8 @@ import Methods from './components/Methods'
 import Watch from './components/Watch'
 import LifecycleHooks from './components/LifecycleHooks'
 import StyleBinding from './components/StyleBinding'
+import TemplateRender from './components/TemplateRender'
+import ListRender from './components/ListRender'
 
 export default {
   name: 'App',
@@ -30,7 +34,9 @@ export default {
     Methods,
     Watch,
     LifecycleHooks,
-    StyleBinding
+    StyleBinding,
+    TemplateRender,
+    ListRender
   }
 }
 </script>
