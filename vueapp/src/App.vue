@@ -1,19 +1,36 @@
 <template>
   <div id="app">
-    <HelloWorld/>
-    <DataBinding/>
+    <HelloWorld/> <hr>
+    <DataBinding/> <hr>
+    <DataFunction/>
+    <DataFunction/>
+    <DataFunction/> <hr>
+    <Methods/> <hr>
+    <Watch/> <hr>
+    <LifecycleHooks/> <hr>
+    <StyleBinding/> <hr>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
-import DataBinding from './components/Databinding'
+import DataBinding from './components/DataBinding'
+import DataFunction from './components/DataFunction'
+import Methods from './components/Methods'
+import Watch from './components/Watch'
+import LifecycleHooks from './components/LifecycleHooks'
+import StyleBinding from './components/StyleBinding'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    DataBinding
+    DataBinding,
+    DataFunction,
+    Methods,
+    Watch,
+    LifecycleHooks,
+    StyleBinding
   }
 }
 </script>
