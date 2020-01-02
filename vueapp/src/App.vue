@@ -11,6 +11,8 @@
     <StyleBinding/> <hr>
     <TemplateRender/> <hr>
     <ListRender/> <hr>
+    <EventHandling/> <hr>
+    <FormInputBinding/> 
   </div>
 </template>
 
@@ -24,6 +26,8 @@ import LifecycleHooks from './components/LifecycleHooks'
 import StyleBinding from './components/StyleBinding'
 import TemplateRender from './components/TemplateRender'
 import ListRender from './components/ListRender'
+import EventHandling from './components/EventHandling'
+import FormInputBinding from './components/FormInputBinding'
 
 export default {
   name: 'App',
@@ -36,7 +40,9 @@ export default {
     LifecycleHooks,
     StyleBinding,
     TemplateRender,
-    ListRender
+    ListRender,
+    EventHandling,
+    FormInputBinding
   }
 }
 </script>

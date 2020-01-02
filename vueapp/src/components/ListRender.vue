@@ -1,7 +1,7 @@
 <template>
     <div class="listrender">
         <h1>List Render</h1>
-        <div class="user" v-for="user in userActive">{{ user.email }}</div>
+        <div class="user" v-for="(user, users) in userActive" v-bind:key="users">{{ user.email }}</div>
         <ul class="scores">
             <li v-for="(value, key) in scores" v-bind:key="key">{{ key }} : {{value}}</li>
         </ul>

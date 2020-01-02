@@ -18,24 +18,24 @@
             msg: String
         },
         beforeCreate() {
-            alert('beforeCreate hook has been called');
+            // alert('beforeCreate hook has been called');
             console.log('beforeCreate hook has been called')
         },
         created() {
-            alert('Created hook has been called');
+            // alert('Created hook has been called');
             console.log(`book is of type ${typeof this.books}`)
         },
         beforeMount() {
-            alert('beforeMounted is called');
+            // alert('beforeMounted is called');
             console.log('beforeMounted is called')
         },
         mounted() {
-            alert('mounted has been called');
+            // alert('mounted has been called');
             this.$data.hello = 'hello';
             console.log(this.$data.hello)
         },
         beforeUpdate(){
-            alert('beforeUpdate hook has been called');
+            // alert('beforeUpdate hook has been called');
             console.log('beforeUpdate hook has been called');
         },
         update() {
