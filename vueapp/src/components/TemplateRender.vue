@@ -19,7 +19,7 @@
                 <input type="password" placeholder="Nhập lại password">
             </form>
         </div>
-        <route-view></route-view>
+        <router-view></router-view>
     </div>
 </template>
 

@@ -2,7 +2,7 @@
     <div>
         <h1>Methods</h1>
         <div>{{ sayHello(message) }}</div>
-        <route-view></route-view>
+        <router-view></router-view>
     </div>
 </template>
 

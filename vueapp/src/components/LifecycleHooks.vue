@@ -2,7 +2,7 @@
     <div>
         <h1>Lifecycle Hooks</h1>
         <div>{{ hello }}</div>
-        <route-view></route-view>
+        <router-view></router-view>
     </div>
 </template>
 

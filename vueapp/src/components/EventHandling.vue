@@ -52,7 +52,7 @@
     <div @click.self="alertHello">
       <button @click="alertWelcome">Click me!</button>
     </div>
-    <route-view></route-view>
+    <router-view></router-view>
   </div>
 </template>
 

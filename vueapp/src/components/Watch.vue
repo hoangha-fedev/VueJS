@@ -5,7 +5,7 @@
         <div>Message text: {{ message.text }}</div>
         <div><button @click="changeType">Change type</button></div>
         <div><button @click="changeText">Change text</button></div>
-        <route-view></route-view>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -46,3 +46,4 @@ export default {
     }
 }
 </script>
+

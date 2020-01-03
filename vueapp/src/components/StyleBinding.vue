@@ -1,7 +1,7 @@
 <template>
     <div class="stylebinding">
         <h1 v-bind:style="[colorValue, borderValue, paddingValue]">Welcome to Style Binding</h1>
-        <route-view></route-view>
+        <router-view></router-view>
     </div>
 </template>
 
