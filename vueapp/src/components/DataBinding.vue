@@ -8,6 +8,7 @@
       <p>Nhập văn bản:</p>
       <p>{{paragraph}}</p>
       <textarea v-model="paragraph"></textarea>
+      <route-view></route-view>
     </div>
 </template>
 

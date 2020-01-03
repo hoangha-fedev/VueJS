@@ -11,6 +11,7 @@
                 <div class="desc">{{ list.body }}</div>
             </div>
         </div>
+        <route-view></route-view>
     </div>
 </template>
 

@@ -26,6 +26,7 @@
             <input type="number" v-model.number="message" >
             <input type="number" v-model.trim="message"> -->
         </div>  
+        <route-view></route-view>
     </div>
 </template>
 

@@ -5,6 +5,7 @@
         <div>Message text: {{ message.text }}</div>
         <div><button @click="changeType">Change type</button></div>
         <div><button @click="changeText">Change text</button></div>
+        <route-view></route-view>
     </div>
 </template>
 
