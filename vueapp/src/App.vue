@@ -29,7 +29,9 @@
         <li><router-link to="/form-input-binding">Form Input Binding</router-link></li>
         <li><router-link to="/coins/usd">Coins</router-link></li>
       </ul>
-      <router-view></router-view>
+      <transition name="router-anim" enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutLeft">
+        <router-view></router-view>
+      </transition>
     </div>
   </div>
 </template>
@@ -66,6 +68,8 @@ export default {
 </script>
 
 <style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -80,4 +84,7 @@ ul li{padding: 5px 10px; margin: 10px; border: 1px solid #333; background: #333;
 ul li a{color:#fff; text-decoration: none; text-align: center}
 ul li:hover{transition: all ease 0.5s; background: #fff;color:#333}
 ul li:hover a{color:#333}
+
+.page{position: fixed; width: 1200px; left: calc(50% - 600px)}
+
 </style>

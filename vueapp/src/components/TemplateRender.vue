@@ -1,5 +1,5 @@
 <template>
-    <div class="templaterender">
+    <div class="templaterender page">
         <ul class="tabs">
             <li @click="changeTabs('login')">Login</li>
             <li @click="changeTabs('register')">Register</li>

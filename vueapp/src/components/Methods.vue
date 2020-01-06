@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="methods page">
         <h1>Methods</h1>
         <div>{{ sayHello(message) }}</div>
         <router-view></router-view>

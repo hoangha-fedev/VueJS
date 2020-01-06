@@ -1,5 +1,5 @@
 <template>
-    <div class="databinding">
+    <div class="databinding page">
       <h2>Data Binding</h2>
       <a v-bind:href="website" v-bind:title="website" target="_blank">Link Github</a>
       <input class="d-block" type="text" v-bind:value="job">

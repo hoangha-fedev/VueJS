@@ -1,5 +1,5 @@
 <template>
-    <div class="watch">
+    <div class="watch page">
         <h1>Watch</h1>
         <div>Message type: {{ message.type }}</div>
         <div>Message text: {{ message.text }}</div>

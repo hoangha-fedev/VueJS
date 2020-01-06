@@ -1,5 +1,5 @@
 <template>
-  <div class="coins">
+  <div class="coins page">
     <p>Name: {{ coin.name }}</p>
     <p>Symbol: {{ coin.symbol }}</p>
     <p>Price (USD): {{ coin.price_usd }}</p>

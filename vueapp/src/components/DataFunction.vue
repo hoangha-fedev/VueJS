@@ -1,5 +1,5 @@
 <template>
-  <div class="datafunction">
+  <div class="datafunction page">
     <h2>Data Function</h2>
     <button v-on:click="count += 1">{{ count }}</button>
     <router-view></router-view>

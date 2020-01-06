@@ -1,5 +1,5 @@
 <template>
-    <div class="listrender">
+    <div class="listrender page">
         <h1>List Render</h1>
         <div class="user" v-for="(user, users) in userActive" v-bind:key="users">{{ user.email }}</div>
         <ul class="scores">

@@ -1,5 +1,5 @@
 <template>
-    <div class="form-input-binding">
+    <div class="form-input-binding page">
         <h1>Form Input Binding</h1>
         <div class="text">
             {{ message }}

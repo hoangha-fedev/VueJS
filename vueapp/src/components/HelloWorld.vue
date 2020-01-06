@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="hello page">
     <h1>Hello World {{msg}}</h1>
     <router-view></router-view>
   </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="eventhandling">
+  <div class="eventhandling page">
     <h1>Event Handing</h1>
     <h2>Listening to Events</h2>
     <button @click="counter += 1">Add 1</button>

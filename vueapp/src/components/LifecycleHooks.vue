@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="lifecycle-hooks page">
         <h1>Lifecycle Hooks</h1>
         <div>{{ hello }}</div>
         <router-view></router-view>
